@@ -1,0 +1,135 @@
+/* Write all your CSS here */
+
+/* Please indent properly */
+
+/* Please use only lower-case letters */
+
+/* Your webpage should be 100% responsive!!! */
+
+body {
+    margin: 0;
+}
+
+.side-bar {
+    background-color: #3f0e40;
+    color: white;
+    padding: 1%;
+    width: 20%;
+}
+
+.tk-19 p i {
+    color: #38938b;
+    font-size: 10px;
+    margin: 5px;
+}
+
+.tk-19 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon {
+    padding: 25px;
+}
+
+.thread {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.thread i {
+    padding-top: 18px;
+    padding-right: 5px;
+}
+
+.jump {
+    border: none;
+    padding: 10px;
+    background-color: #260027;
+}
+
+.channels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.channels i {
+    padding: 22px;
+}
+
+.ul ul {
+    padding: 0px;
+}
+
+.ul li {
+    list-style: none;
+}
+
+.ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.ul i {
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.DM {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.DM i {
+    padding: 22px;
+}
+
+.chat li {
+    list-style: none;
+}
+.chat i {
+    font-size: 12px;
+    padding: 5px;
+}
+#heart {
+    color: #2bac76;
+}
+#circle {
+    color:  #2bac76;
+  
+}
+.profile{
+    height: 30px;
+    border-radius: 5px;
+}
+.fcc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fcc h1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.i {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.fas-fa {
+padding: 25px; 
+}
+#profile-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.completed {
+    padding-top: 0px;
+}
