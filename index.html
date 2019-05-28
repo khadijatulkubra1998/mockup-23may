@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900&display=swap" rel="stylesheet">
+
     <title>Slack</title>
 </head>
 
@@ -19,7 +22,7 @@
     <section class="side-bar">
         <header class="tk-19">
             <div class="info">
-                <h1>Tk-2019 <i class="fas fa-angle-down"></i></h1>
+                <h1>tk-2019 <i class="fas fa-angle-down"></i></h1>
                 <p><i class="fas fa-circle"></i>Khadija Tul Kubra</p>
             </div>
             <div class="icon">
@@ -27,8 +30,11 @@
             </div>
         </header>
         <main>
-            <div>
+            <div class="search">
                 <input type="search" placeholder="Jump to.." class="jump">
+                <div>
+                    <i class="fas fa-search"></i>
+                </div>
             </div>
             <div class="thread">
                 <i class="far fa-comment-dots"></i>
@@ -79,50 +85,78 @@
                 </div>
             </div>
             <div class="fas-fa">
-                <i class="fas fa-phone"></i>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-cog"></i>
-                <input type="search" placeholder="search">
-                <i class="fas fa-at"></i>
-                <i class="far fa-star"></i>
-                <i class="fas fa-ellipsis-v"></i>
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-cog"></i>
+                </div>
+                <div class="fa-search">
+                    <input type="search" placeholder="Search">
+                    <div>
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div>
+                    <i class="fas fa-at"></i>
+                    <i class="far fa-star"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </div>
             </div>
         </header>
-        <hr> <p>Yesterday</p> <hr>
-        <main>
+        <div class="hr">
+            <hr>
+            <p>Yesterday</p>
+            <hr>
+        </div>
+        <main class="fcc-main">
             <div id="profile-1">
                 <div>
                     <img src="mockups/p-3.jpg" alt="profile" class="profile">
                 </div>
                 <div class="completed">
-                    <h3>Khadija Tul Kubra</h3>
-                    <span>8:35 PM</span>
+                    <div>
+                        <h3>Khadija Tul Kubra</h3>
+                        <span>8:35 PM</span>
+                    </div>
                     <p>Completed.</p>
                     <img src="mockups/main.PNG" alt="main">
                     <button><i class="fas fa-heart"></i> 5 </button>
-                    <img src="mockups/p-1.PNG" alt="p-1">
-                    <img src="mockups/p-2.png" alt="p-2">
-                    <img src="mockups/p-3.jpg" alt="p-3">
-                    <img src="mockups/p-4.jpg" alt="p-4">
-                    <img src="mockups/p-2.png" alt="p-2">
-                    <a>16 replies</a>
-                    <span>Last reply today at 1:31 PM</span>
+                    <div class="p-img">
+                        <img src="mockups/p-1.PNG" alt="p-1">
+                        <img src="mockups/p-2.png" alt="p-2">
+                        <img src="mockups/p-3.jpg" alt="p-3">
+                        <img src="mockups/p-4.jpg" alt="p-4">
+                        <img src="mockups/p-2.png" alt="p-2">
+                        <a>16 replies</a>
+                        <span>Last reply today at 1:31 PM</span>
+                    </div>
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="reply">
+                <div class="reply-img">
                     <img src="mockups/p-5.jpg" alt="p-5">
                 </div>
-                <div>
-                    <h3>syed kubab</h3>
-                    <i class="far fa-comment-alt-dots"></i>
-                    <span>11:59 PM</span>
+                <div class="comment">
+                    <div class="h3">
+                        <h3>syed kubab</h3>
+                        <span>11:59 PM</span>
+                    </div>
+                    <p>wwwwwwwowww yr great</p>
                     <button><i class="fas fa-heart"></i> 1 </button>
+                    <img src="mockups/p-3.jpg" alt="Khadija profile">
+                    <img src="mockups/p-5.jpg" alt="kokab profile">
                 </div>
-
             </div>
         </main>
     </section>
+    <footer>
+        <div>
+            <input type="text" placeholder="Message #freecodecamp">
+            <i class="far fa-plus-square" class="plus-1"></i>
+            <i class="fas fa-at" class="at"></i>
+            <i class="far fa-smile" class="smile"></i>
+        </div>
+    </footer>
 </body>
 
 </html>

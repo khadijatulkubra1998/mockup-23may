@@ -12,15 +12,42 @@ body {
 
 .side-bar {
     background-color: #3f0e40;
-    color: white;
+    color: #ffffff91;
     padding: 1%;
-    width: 20%;
+    width: 18%;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 15px;
+}
+
+.tk-19 h1 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    margin: 0px 5px 2px 2px;
+    letter-spacing: 0px;
+}
+
+.tk-19 h1 i {
+    font-size: 12px;
+    color: #ffffff91;
+    margin-left: 5px;
 }
 
 .tk-19 p i {
     color: #38938b;
-    font-size: 10px;
-    margin: 5px;
+    font-size: 9.5px;
+    margin: 2px 5px;
+}
+
+.tk-19 p {
+    margin-top: 2px;
+    font-size: 14px;
+    margin-left: -3px;
+}
+
+.tk-19 p:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .tk-19 {
@@ -29,52 +56,96 @@ body {
     justify-content: space-between;
 }
 
+.search {
+    position: relative;
+}
+
+.search input {
+    border: none;
+    padding: 8px;
+    padding-left: 25px;
+    font-weight: bold;
+    background-color: #260027;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+}
+
+.search i {
+    top: 10px;
+    left: 8px;
+    font-size: 12px;
+    position: absolute;
+}
+
 .icon {
-    padding: 25px;
+    padding: 5px;
+    font-size: 20px;
 }
 
 .thread {
     display: flex;
     flex-direction: row;
-    padding-top: 10px;
+    padding-top: 5px;
+}
+
+.thread:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.thread p {
+    font-size: 15px;
+    margin-bottom: 25px;
 }
 
 .thread i {
     padding-top: 18px;
-    padding-right: 5px;
-}
-
-.jump {
-    border: none;
-    padding: 10px;
-    background-color: #260027;
+    padding-right: 7px;
+    font-size: 14px;
 }
 
 .channels {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-weight: 300;
 }
 
 .channels i {
-    padding: 22px;
+    padding: 5px;
+}
+
+.channels h4 {
+    margin: 2px 2px 2px 2px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.channels h4:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .ul ul {
     padding: 0px;
+    margin-top: 2px;
 }
 
 .ul li {
     list-style: none;
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 300;
 }
 
 .ul a {
     text-decoration: none;
-    color: white;
+    color: #ffffff91;
 }
 
 .ul i {
-    font-size: 15px;
+    font-size: 10px;
     padding-right: 5px;
 }
 
@@ -84,52 +155,273 @@ body {
     justify-content: space-between;
 }
 
+.DM h4 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.DM h4:hover {
+    color: white;
+    cursor: pointer;
+}
+
 .DM i {
-    padding: 22px;
+    padding-top: 25px;
+    padding-left: 20px;
 }
 
 .chat li {
     list-style: none;
+    margin-left: -45px;
+    font-size: 14px;
 }
+
 .chat i {
-    font-size: 12px;
+    font-size: 8px;
     padding: 5px;
 }
+
+.chat ul {
+    margin-top: -12px;
+}
+
 #heart {
     color: #2bac76;
+    font-size: 12px;
 }
-#circle {
-    color:  #2bac76;
-  
+
+.side-bar li:hover {
+    background-color: #1164a3;
+    color: white;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 100%;
+    background-size: cover;
+    margin-left: -20px;
 }
-.profile{
-    height: 30px;
+
+.side-bar li:hover a {
+    color: white;
+}
+
+.chat li:hover {
+    background-color: #1164a3;
+    color: white;
+    padding-left: 15px;
+    padding-right: 55px;
+    width: 100%;
+    margin-left: -60px;
+    cursor: pointer;
+}
+
+.profile {
+    height: 35px;
     border-radius: 5px;
 }
+
 .fcc {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
 }
+
 .fcc h1 {
     margin-top: 10px;
     margin-bottom: 0px;
+    font-family: 'Lato', sans-serif;
 }
+
 .i {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: -10px;
 }
+
 .fas-fa {
-padding: 25px; 
+    padding: 25px;
+    display: flex;
 }
+
 #profile-1 {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
+
 .completed {
     padding-top: 0px;
+    margin-left: 8px;
+}
+
+.p-img img {
+    height: 25px;
+    border-radius: 5px;
+}
+
+.p-img a {
+    font-size: 12px;
+    color: #557da6;
+    font-weight: bold;
+}
+
+.p-img span {
+    font-size: 12px;
+}
+
+.fa-search {
+    position: relative;
+}
+
+.fa-search input {
+    padding-top: 8px;
+    padding-left: 26px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    margin-top: -10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #888080;
+}
+
+.fcc i {
+    color: #888080;
+    font-size: 12px;
+}
+
+.fas-fa i {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.fa-search i {
+    position: absolute;
+    top: 2px;
+    left: 20px;
+    font-size: 12px;
+}
+
+.i p {
+    color: #888080;
+    font-size: 12px;
+}
+
+hr {
+    width: 45%;
+}
+
+.hr p {
+    color: #323132;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hr {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fcc-main {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25px;
+}
+
+.completed h3 {
+    margin-top: 0px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.completed p {
+    margin-top: -12px;
+}
+
+.completed button {
+    border: 1px solid #1d9bd1;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    color: #1d9bd1;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.completed button i {
+    color: #ca2b28;
+}
+
+.reply {
+    display: flex;
+    flex-direction: row;
+}
+
+.reply-img img {
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.comment img {
+    height: 25px;
+    border-radius: 5px;
+}
+
+.h3 h3 {
+    margin-top: 18px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+span {
+    font-size: 12px;
+}
+
+.comment {
+    margin-left: 8px;
+}
+
+.comment p {
+    margin-top: -12px;
+}
+
+.comment button {
+    border: 1px solid #1d9bd1;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    color: #1d9bd1;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.comment button i {
+    color: #ca2b28;
+}
+footer {
+    position: relative;
+}
+footer input {
+    width: 90%;
+    padding: 10px;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+footer .plus-1 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+.at {
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
