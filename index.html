@@ -7,7 +7,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -73,7 +73,7 @@
             </div>
         </main>
     </section>
-    <section>
+    <section class="center">
         <header class="fcc">
             <div>
                 <h1>#freecodecamp</h1>
@@ -85,22 +85,17 @@
                 </div>
             </div>
             <div class="fas-fa">
-                <div>
-                    <i class="fas fa-phone"></i>
-                    <i class="fas fa-exclamation-circle"></i>
-                    <i class="fas fa-cog"></i>
-                </div>
+                <i class="fas fa-phone"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-cog"></i>
                 <div class="fa-search">
+                    <i class="fas fa-search"></i>
                     <input type="search" placeholder="Search">
-                    <div>
-                        <i class="fas fa-search"></i>
-                    </div>
                 </div>
-                <div>
-                    <i class="fas fa-at"></i>
-                    <i class="far fa-star"></i>
-                    <i class="fas fa-ellipsis-v"></i>
-                </div>
+                <i class="fas fa-at"></i>
+                <i class="far fa-star"></i>
+                <i class="fas fa-ellipsis-v"></i>
+
             </div>
         </header>
         <div class="hr">
@@ -119,7 +114,7 @@
                         <span>8:35 PM</span>
                     </div>
                     <p>Completed.</p>
-                    <img src="mockups/main.PNG" alt="main">
+                    <img src="mockups/main.PNG" alt="main" id="main-pic">
                     <button><i class="fas fa-heart"></i> 5 </button>
                     <div class="p-img">
                         <img src="mockups/p-1.PNG" alt="p-1">
@@ -148,15 +143,16 @@
                 </div>
             </div>
         </main>
+        <footer>
+            <div>
+                <i class="far fa-plus-square" id="plus-1"></i>
+                <input type="text" placeholder="Message #freecodecamp">
+                <i class="fas fa-at" id="at"></i>
+                <i class="far fa-smile" id="smile"></i>
+            </div>
+        </footer>
     </section>
-    <footer>
-        <div>
-            <i class="far fa-plus-square" class="plus-1"></i>
-            <input type="text" placeholder="Message #freecodecamp">
-            <i class="fas fa-at" class="at"></i>
-            <i class="far fa-smile" class="smile"></i>
-        </div>
-    </footer>
+
 </body>
 
 </html>
