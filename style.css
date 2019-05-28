@@ -406,22 +406,23 @@ span {
     color: #ca2b28;
 }
 footer {
-    position: relative;
+    border: 1px solid #ccc;
+    /* margin: 2px; */
+    /* padding: 5px 5px; */
 }
 footer input {
-    width: 90%;
+    /* width: 90%; */
     padding: 10px;
-    margin: 20px;
-    padding-left: 40px;
-}
-
-footer .plus-1 {
-    position: absolute;
-    top: 0px;
-    left: 20px;
+    border: none;
+    outline: none;
+    padding-right: 50px; 
 }
 .at {
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    margin-left: 10px;
+}
+.smile {
+    margin-left: 10px;
+}
+.plus-1 {
+    font-size: 20px;
 }
